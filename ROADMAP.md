@@ -6,9 +6,9 @@
 ## 현재 상태 ← Phase 넘어갈 때마다 여기만 고칠 것
 
 - Phase: 0 (환경 세팅)
-- 진행: 시작 전
-- 막힌 것: -
-- 다음: WSL2 설치
+- 진행: WSL2·Git·uv 설치 완료, 첫 커밋 완료, Colab GPU 확인
+- 막힌 것: Cowork 폴더 연동(WSL UNC 경로) — GitHub 연동으로 우회
+- 다음: 셸 명령어 30개, VS Code 디버거
 - 갱신일: 2026-09-07
 
 ---
@@ -57,13 +57,13 @@
 
 1주 · 12h · 한 번만 하면 끝. 공부가 아니라 설치다.
 
-- [v] 리눅스 환경 확보 (윈도우면 WSL2 + Ubuntu)
+- [ ] 리눅스 환경 확보 (윈도우면 WSL2 + Ubuntu)
 - [ ] 셸 기본 명령어 30개 (`cd ls cp mv grep find ssh scp tmux nvidia-smi`)
 - [ ] Python 환경을 `uv`로 통일 (conda/pip/venv 혼용 금지)
 - [ ] Git: add / commit / push / branch / PR 다섯 개만
 - [ ] GitHub `ml-lab` 레포 생성 — 이후 모든 코드가 여기 쌓인다
 - [ ] VS Code 디버거로 중단점 찍고 변수 보기 (print 디버깅 탈출)
-- [v] Colab / Kaggle 무료 GPU 확인 (`torch.cuda.is_available()`)
+- [ ] Colab / Kaggle 무료 GPU 확인 (`torch.cuda.is_available()`)
 
 **통과 기준**: 빈 폴더에서 가상환경 → PyTorch 설치 → GPU 확인 → 커밋 → 푸시까지 10분 안에 막힘없이.
 
