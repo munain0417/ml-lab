@@ -6,10 +6,9 @@
 ## 현재 상태 ← Phase 넘어갈 때마다 여기만 고칠 것
 
 - Phase: 0 (환경 세팅)
-- 진행: WSL2·Git·uv 설치 완료, 첫 커밋 완료, Colab GPU 확인, uv기본적인 가상환경, add, toml, lock 개념 학습
-- 막힌 것: Cowork 폴더 연동(WSL UNC 경로) — GitHub 연동으로 우회
-- 다음: 셸 명령어 30개, VS Code 디버거
-- 갱신일: 2026-09-07
+- 진행: WSL2·Git·uv 설치 완료, Git(Ch1-2.5, 3-3.3)학습, Kaggle GPU 확인, uv기본적인 가상환경/add/toml/lock 개념 학습
+- 다음: 셸 명령어 30개, VS Code 디버거(따로 학습이 아닌 알고리즘 과제 시 실습)
+- 갱신일: 2026-09-09
 
 ---
 
