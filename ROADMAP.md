@@ -57,14 +57,14 @@
 
 1주 · 12h · 한 번만 하면 끝. 공부가 아니라 설치다.
 
-- 리눅스 환경 확보 (윈도우면 WSL2 + Ubuntu)
-- 셸 기본 명령어 30개 (`cd ls cp mv grep find ssh scp tmux nvidia-smi`)
-- Python 환경을 `uv`로 통일 (conda/pip/venv 혼용 금지)
-- Git: add / commit / push / branch / PR 다섯 개만
-- GitHub `ml-lab` 레포 생성 — 이후 모든 코드가 여기 쌓인다
-- ~~VS Code 디버거로 중단점 찍고 변수 보기 (print 디버깅 탈출)~~ 
-- |-> 알고리즘 강의 과제 구현할 때 디버거 활용
-- Colab / Kaggle 무료 GPU 확인 (`torch.cuda.is_available()`)
+- [v] 리눅스 환경 확보 (윈도우면 WSL2 + Ubuntu)
+- [ ] 셸 기본 명령어 30개 (`cd ls cp mv grep find ssh scp tmux nvidia-smi`)
+- [v] Python 환경을 `uv`로 통일 (conda/pip/venv 혼용 금지)
+- [ ] Git: add / commit / push / branch / PR 다섯 개만
+- [v] GitHub `ml-lab` 레포 생성 — 이후 모든 코드가 여기 쌓인다
+- [ ] ~~VS Code 디버거로 중단점 찍고 변수 보기 (print 디버깅 탈출)~~ 
+-     |-> 알고리즘 강의 과제 구현할 때 디버거 활용
+- [v] Colab / Kaggle 무료 GPU 확인 (`torch.cuda.is_available()`)
 
 **통과 기준**: 빈 폴더에서 가상환경 → PyTorch 설치 → GPU 확인 → 커밋 → 푸시까지 10분 안에 막힘없이.
 
@@ -74,13 +74,13 @@
 
 4주 · 48h · 바텀업 구간. **가장 중요하고 가장 건너뛰고 싶어지는 구간.**
 
-- Karpathy micrograd 영상 따라 치며 자동미분 엔진 구현
-- numpy만으로 2층 MLP → MNIST 정확도 95%+
-- 역전파를 종이에 손으로 유도한 뒤 자기 코드와 대조
-- 같은 MLP를 PyTorch로 재구현 (autograd/optimizer/DataLoader 대응시키기)
-- 텐서 shape 감각 (broadcasting, `view`/`reshape`/`permute`, 배치 차원)
-- 학습 루프를 아무것도 안 보고 쓰기 (zero_grad → forward → loss → backward → step)
-- 일부러 망가뜨리기: 학습률 100배, 정규화 제거, 활성함수 제거
+- [ ] Karpathy micrograd 영상 따라 치며 자동미분 엔진 구현
+- [ ] numpy만으로 2층 MLP → MNIST 정확도 95%+
+- [ ] 역전파를 종이에 손으로 유도한 뒤 자기 코드와 대조
+- [ ] 같은 MLP를 PyTorch로 재구현 (autograd/optimizer/DataLoader 대응시키기)
+- [ ] 텐서 shape 감각 (broadcasting, `view`/`reshape`/`permute`, 배치 차원)
+- [ ] 학습 루프를 아무것도 안 보고 쓰기 (zero_grad → forward → loss → backward → step)
+- [ ] 일부러 망가뜨리기: 학습률 100배, 정규화 제거, 활성함수 제거
 
 **통과 기준**: "역전파가 뭔가요"에 수식을 쓰고 코드 어느 줄인지 짚으며 10분 설명.
 
