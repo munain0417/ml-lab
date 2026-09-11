@@ -1,15 +1,14 @@
 [project]
 name = "ml-lab"
 version = "0.1.0"
-description = "Add your description here"
+description = "This repository is for personal AI/ML practices.   
+I started basic things and planned to be familiar with handling models. I have far more theoretical background than hands-on experience. So it focuses on implementing mini model in code level and then applying several methods to public model."
 readme = "README.md"
 authors = [
     { name = "Yeongmin Lee", email = "munain0417@gmail.com" }
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "requests>=2.34.2",
-    "ruff>=0.16.6",
     "torch>=2.14.0",
 ]
 
@@ -19,3 +18,8 @@ ml-lab = "ml_lab:main"
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.6",
+]

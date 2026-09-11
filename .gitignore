@@ -18,3 +18,7 @@ venv/
 
 # secrets
 .env
+
+# pytorch
+*.pt
+*.pth
